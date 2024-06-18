@@ -36,23 +36,27 @@ Follow these instructions to get a copy of the project up and running on your lo
 2. **Open the project in Android Studio:**
    - Start Android Studio and select `Open an existing Android Studio project`.
    - Navigate to the cloned directory and select it.
+
 3. **Configure Firebase:**
    - Go to the [Firebase Console](https://console.firebase.google.com/).
    - Create a new project or use an existing one.
    - Add an Android app to your Firebase project with your app's package name.
    - Download the `google-services.json` file and place it in the `app` directory of your project.
    - Add Firebase SDK to your project by following the instructions in the Firebase console.
+
 4. **Add Google Gemini Pro API Key:**
    - Create a file named `apikeys.properties` in the root directory of your project.
    - Add your Google Gemini Pro API key:
     ```makefile
     GEMINI_PRO_API_KEY=your_api_key_here
     ```
+
 5. **Build and run the project:**
    - Sync the project with Gradle files.
    - Run the app on an emulator or a physical device.
 
 ### Usage
+
 1. Open the app on your device.
 2. Tap the "Scan Product" button to open the camera.
 3. Capture the image of the product you want to scan.
